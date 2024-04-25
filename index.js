@@ -3,7 +3,7 @@ const fs = require('fs');
 
 const videoPath = './sample.mp4'; // Replace with the path to your sample video
 
-(async () => {
+exports.handler = async () => {
     try {
         console.log('Encoding started...')
         hbjs.spawn({
@@ -27,4 +27,4 @@ const videoPath = './sample.mp4'; // Replace with the path to your sample video
     } catch (error) {
         console.error('Error:', error);
     }
-})();
+};

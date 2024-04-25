@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.6.8",
     "fs": "^0.0.1-security",
     "handbrake-js": "^7.0.0"
   }
